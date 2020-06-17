@@ -6,7 +6,7 @@
   "scripts": {
     "start": "npm-run-all -p bundle:*",
     "bundle:eleventy": "npx @11ty/eleventy --watch --quiet",
-    "bundle:parcel": "parcel src/index.html",
+    "bundle:parcel": "parcel src/index.html -p 3000 --open",
     "build": "run-s prod:*",
     "prod:eleventy": "npx @11ty/eleventy",
     "prod:parcel": "parcel build src/index.html"
