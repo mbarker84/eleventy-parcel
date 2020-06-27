@@ -26,3 +26,12 @@
     font-size: 1.4rem;
   }
 }
+
+.c-hero__github-link {
+  color: $accent;
+
+  &:hover,
+  &:focus {
+    color: $lightGrey;
+  }
+}
