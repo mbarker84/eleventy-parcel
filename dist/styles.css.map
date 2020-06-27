@@ -1,0 +1,1 @@
+{"version":3,"sources":["styles.scss"],"names":[],"mappings":"AAAA,IAAI,CAAC;EACH,UAAU,EAAE,QAAQ,GACrB","file":"styles.css","sourceRoot":"../src/css","sourcesContent":["body {\n  background: deeppink;\n}\n"]}
