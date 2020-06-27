@@ -1,0 +1,9 @@
+{
+  "title": "Eleventy-Parcel",
+  "url": "https://eleventy-parcel.netlify.app/",
+  "description": "A basic Eleventy (11ty) starter project with Parcel JS",
+  "author": {
+    "name": "Michelle Barker",
+    "email": "contact@michellebarker.co.uk"
+  }
+}
