@@ -1,1 +1,0 @@
-{"version":3,"sources":["index.js"],"names":["console","log"],"mappings":";AAAAA,QAAQC,IAAI","file":"index.js","sourceRoot":"../src/js","sourcesContent":["console.log(\"hello 11ty!\");\n"]}
