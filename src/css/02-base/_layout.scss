@@ -1,0 +1,17 @@
+.container {
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  @media (min-width: $md) {
+    padding: 0 2rem;
+  }
+}
+
+.page-content {
+  padding: 2rem 0;
+
+  @media (min-width: $md) {
+    padding: 7rem 0;
+  }
+}

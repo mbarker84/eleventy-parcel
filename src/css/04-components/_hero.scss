@@ -1,0 +1,28 @@
+.c-hero {
+  min-height: 100vh;
+  text-align: center;
+  background-color: $bgDark;
+  color: $white;
+
+  @media (min-width: $md) {
+    padding: 5rem 0;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.c-hero__heading {
+  color: $accent;
+
+  @media (min-width: $lg) {
+    font-size: 6rem;
+  }
+}
+
+.c-hero__desc {
+  max-width: 50ch;
+
+  @media (min-width: $md) {
+    font-size: 1.4rem;
+  }
+}

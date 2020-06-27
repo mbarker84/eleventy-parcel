@@ -1,6 +1,4 @@
 ---
-layout: layout.njk
-pageTitle: "Homepage"
+layout: home.njk
+pageTitle: "Eleventy-Parcel"
 ---
-
-This is a paragraph of text.

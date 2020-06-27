@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>{{ metadata.title }}</title>
+    <meta name="Description" content="{{ metadata.description }}">
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Lato&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    {% set showHomeLink = false %}
+    {% include "./partials/header.njk" %}
+
+    <div class="c-hero">
+      <div class="container">
+        <h1 class="c-hero__heading">{{ pageTitle }}</h1>
+        <div class="c-hero__desc">
+          <p>{{ metadata.description }}</p>
+        </div>
+      </div>
+    </div>
+
+    {{ content | safe }}
+
+    <!--JS-->
+    <script src="./index.js"></script>
+  </body>
+</html>

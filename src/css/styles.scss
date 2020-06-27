@@ -1,3 +1,8 @@
-body {
-  background: deeppink;
-}
+@import "01-config/variables";
+
+@import "02-base/reset";
+@import "02-base/typography";
+@import "02-base/layout";
+
+@import "04-components/header";
+@import "04-components/hero";

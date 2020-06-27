@@ -1,0 +1,20 @@
+<header class="c-header">
+  {% if showHomeLink == true %}
+    <h3 class="c-header__title">
+      <a href="/">{{ metadata.title }}</a>
+    </h3>
+  {% endif %}
+  <nav class="c-header__nav">
+    <ul class="c-header__list">
+      <li class="c-header__item">
+        <a class="c-header__link" href="/about">About this project</a>
+      </li>
+      <li class="c-header__item">
+        <a class="c-header__link" href="https://github.com/mbarker84/eleventy-parcel">Github</a>
+      </li>
+      <li class="c-header__item">
+        <a class="c-header__link" href="https://twitter.com/MicheBarks">Twitter</a>
+      </li>
+    </ul>
+  </nav>
+</header>
