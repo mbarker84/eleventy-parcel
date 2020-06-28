@@ -10,6 +10,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Lato&display=swap" rel="stylesheet">
   </head>
   <body>
+    <div class="hidden">
+      {% include './partials/sprite.svg' %}
+    </div>
+
     {% set showHomeLink = false %}
     {% include "./partials/header.njk" %}
 
@@ -18,6 +22,7 @@
         <h1 class="c-hero__heading">{{ pageTitle }}</h1>
         <div class="c-hero__desc">
           <p>{{ metadata.description }}</p>
+          <img src="/bike.jpg" alt="Bike">
           <p>
             <a class="c-hero__github-link" href="https://github.com/mbarker84/eleventy-parcel">Fork this on Github →</a>
           </p>
