@@ -9,9 +9,12 @@
   {% endif %}
   <nav class="c-header__nav">
     <ul class="c-header__list">
-      <li class="c-header__item">
-        <a class="c-header__link" href="/about">About this project</a>
-      </li>
+      {% for page in collections.page %}
+        <li class="c-header__item">
+          <a class="c-header__link" href="{{ page.url }}">{{ page.data.pageTitle }}</a>
+        </li>
+      {% endfor %}
+
       <li class="c-header__item">
         <a class="c-header__link" href="https://github.com/mbarker84/eleventy-parcel">
           Github

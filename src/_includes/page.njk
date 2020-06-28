@@ -9,6 +9,10 @@
     <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
   </head>
   <body>
+    <div class="hidden">
+      {% include './partials/sprite.svg' %}
+    </div>
+
     {% set showHomeLink = true %}
     {% include "./partials/header.njk" %}
 
