@@ -1,0 +1,34 @@
+{
+  "plugins": [
+    "stylelint-prettier"
+  ],
+  "rules": {
+    "rule-empty-line-before": [
+      "always",
+      {
+        "except": [
+          "first-nested"
+        ]
+      }
+    ],
+    "at-rule-empty-line-before": [
+      "always",
+      {
+        "except": [
+          "first-nested"
+        ],
+        "ignoreAtRules": [
+          "import"
+        ]
+      }
+    ],
+    "at-rule-no-unknown": null,
+    "prettier/prettier": [
+      true,
+      {
+        "singleQuote": true,
+        "tabWidth": 2
+      }
+    ]
+  }
+}
