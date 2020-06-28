@@ -12,6 +12,21 @@
   }
 }
 
+.c-header--bg {
+  background-color: $accent;
+
+  .c-header__link {
+    color: $bgDark;
+
+    &:hover,
+    &:focus {
+      color: $bgDark;
+      opacity: 0.7;
+      text-decoration-style: dotted;
+    }
+  }
+}
+
 .c-header__nav {
   margin-left: auto;
 }
@@ -48,7 +63,13 @@
   a {
     display: block;
     padding: 1rem;
-    color: $accent;
+    color: $bgDark;
+    text-decoration: none;
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
   }
 
   @media (min-width: $md) {

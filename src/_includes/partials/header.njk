@@ -1,4 +1,7 @@
-<header class="c-header">
+{% if showHomeLink == true %}
+  {% set headerClass = 'c-header--bg' %}
+{% endif %}
+<header class="c-header {{ headerClass }}">
   {% if showHomeLink == true %}
     <h3 class="c-header__title">
       <a href="/">{{ metadata.title }}</a>
