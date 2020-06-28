@@ -1,0 +1,23 @@
+.o-richtext {
+  * + * {
+    margin-top: var(--vr);
+  }
+
+  * + h2,
+  * + h3 {
+    margin-top: calc(2 * var(--vr));
+  }
+
+  ul {
+    list-style-type: disc;
+    margin-left: 2rem;
+  }
+
+  h2 + h3 {
+    margin-top: var(--vr);
+  }
+
+  pre {
+    display: block;
+  }
+}

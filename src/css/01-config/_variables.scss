@@ -9,3 +9,13 @@ $lightGrey: #c3cfe0;
 
 $bgDark: #112338;
 $accent: #77eddf;
+
+/* CSS vars */
+
+:root {
+  --vr: 1rem;
+
+  @media (min-width: $md) {
+    --vr: 2rem;
+  }
+}
