@@ -1,5 +1,5 @@
 body {
-  font-family: "Lato", sans-serif;
+  font-family: 'Lato', sans-serif;
 
   @media (min-width: $md) {
     font-size: 1.2rem;
@@ -10,10 +10,10 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: "Amiri", serif;
+  font-family: 'Amiri', serif;
   font-weight: 700;
   margin: 0;
-  color: $bgDark;
+  color: $accent;
 }
 
 h1 {

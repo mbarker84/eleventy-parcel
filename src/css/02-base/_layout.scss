@@ -1,5 +1,6 @@
 body {
-  background-color: #f0f1f2;
+  background-color: darken($bgDark, 5%);
+  color: $white;
 }
 
 .container {

@@ -1,6 +1,5 @@
 ---
-layout: page.njk
-pageTitle: "About"
+pageTitle: 'About'
 ---
 
 This is a paragraph of text.
