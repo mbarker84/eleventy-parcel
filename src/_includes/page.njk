@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-GB">
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>{{ metadata.title }}</title>
+    <meta name="Description" content="{{ metadata.description }}">
     <link rel="stylesheet" href="../styles.css">
-    <title>{{ renderData.title or title or metadata.title }}</title>
-    <meta name="Description" content="{{ renderData.description or description or metadata.description }}">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Lato&display=swap" rel="stylesheet">
   </head>
   <body>
     <div class="hidden">
