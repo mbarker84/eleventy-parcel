@@ -915,13 +915,6 @@
     "@babel/types" "^7.4.4"
     esutils "^2.0.2"
 
-"@babel/runtime@^7.0.0":
-  version "7.10.3"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.3.tgz#670d002655a7c366540c67f6fd3342cd09500364"
-  integrity sha512-RzGO0RLSdokm9Ipe/YD+7ww8X2Ro79qiXZF3HU9ljrM+qnJmH1Vqth+hbiQZy761LnMJTMitHDuKVYTk3k4dLw==
-  dependencies:
-    regenerator-runtime "^0.13.4"
-
 "@babel/runtime@^7.4.4", "@babel/runtime@^7.8.4":
   version "7.10.2"
   resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.10.2.tgz#d103f21f2602497d38348a32e008637d506db839"
@@ -2581,11 +2574,6 @@ core-js@^2.4.0, core-js@^2.6.5:
   version "2.6.11"
   resolved "https://registry.yarnpkg.com/core-js/-/core-js-2.6.11.tgz#38831469f9922bded8ee21c9dc46985e0399308c"
   integrity sha512-5wjnpaT/3dV+XB4borEsnAYQchn00XSgTAWKDkEqv+K8KevjbzmofK6hfJ9TZIlpj2N0xQpazy7PiRQiWHqzWg==
-
-core-js@^3.1.4:
-  version "3.6.5"
-  resolved "https://registry.yarnpkg.com/core-js/-/core-js-3.6.5.tgz#7395dc273af37fb2e50e9bd3d9fe841285231d1a"
-  integrity sha512-vZVEEwZoIsI+vPEuoF9Iqf5H7/M3eeQqWlQnYa8FSKKePuYTf5MWnxb5SDAzCa60b3JBRS5g9b+Dq7b1y/RCrA==
 
 core-util-is@1.0.2, core-util-is@~1.0.0:
   version "1.0.2"
@@ -6277,15 +6265,6 @@ number-is-nan@^1.0.0:
   resolved "https://registry.yarnpkg.com/number-is-nan/-/number-is-nan-1.0.1.tgz#097b602b53422a522c1afb8790318336941a011d"
   integrity sha1-CXtgK1NCKlIsGvuHkDGDNpQaAR0=
 
-nunjucks-parser@^1.0.2:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/nunjucks-parser/-/nunjucks-parser-1.0.2.tgz#bdbd8da0404ade6c2c0101463f86e3024218476e"
-  integrity sha512-TBlbstZNbfHoJN4tfdLHdyBIq1DD9JdvGdoKUkcGeXqSVDgZV8wc8SX+deqkrlWDCX1+FPGxY8emSdicGR8JTg==
-  dependencies:
-    "@babel/runtime" "^7.0.0"
-    core-js "^3.1.4"
-    pify "^4.0.0"
-
 nunjucks@^3.2.1:
   version "3.2.1"
   resolved "https://registry.yarnpkg.com/nunjucks/-/nunjucks-3.2.1.tgz#f229539281e92c6ad25d8c578c9bdb41655caf83"
@@ -6695,14 +6674,6 @@ parcel-plugin-imagemin@^4.0.1:
     imagemin-webp "^5.1.0"
     parcel-bundler "^1.10.3"
 
-parcel-plugin-nunjucks@^2.2.1:
-  version "2.2.1"
-  resolved "https://registry.yarnpkg.com/parcel-plugin-nunjucks/-/parcel-plugin-nunjucks-2.2.1.tgz#ec250b047c281965dba43101d41db8f3ddc840f6"
-  integrity sha512-fLXbba2BNwQDHxDXvyT6VvoE/5z7qbBq0CTFLXKj+Mno4NyN2zsFrLksdaHHUbKe3hqw0/prlfigUhgI/tEsVQ==
-  dependencies:
-    cosmiconfig "^6.0.0"
-    nunjucks-parser "^1.0.2"
-
 parent-module@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/parent-module/-/parent-module-1.0.1.tgz#691d2709e78c79fae3a156622452d00762caaaa2"
@@ -6928,7 +6899,7 @@ pify@^3.0.0:
   resolved "https://registry.yarnpkg.com/pify/-/pify-3.0.0.tgz#e5a4acd2c101fdf3d9a4d07f0dbc4db49dd28176"
   integrity sha1-5aSs0sEB/fPZpNB/DbxNtJ3SgXY=
 
-pify@^4.0.0, pify@^4.0.1:
+pify@^4.0.1:
   version "4.0.1"
   resolved "https://registry.yarnpkg.com/pify/-/pify-4.0.1.tgz#4b2cd25c50d598735c50292224fd8c6df41e3231"
   integrity sha512-uB80kBFb/tfd68bVleG9T5GGsGPjJrLAUpR5PZIrhBnIaRTQRjqdJSsIKkOP6OAIFbj7GOrcudc5pNjZ+geV2g==
