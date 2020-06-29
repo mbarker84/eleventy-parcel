@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html lang="en-GB">
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
-    <title>{{ metadata.title }}</title>
-    <meta name="Description" content="{{ metadata.description }}">
-    <link rel="stylesheet" href="../styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Lato&display=swap" rel="stylesheet">
-  </head>
+  {% set pathToLinkedFiles = '..' %}
+  {% include "./partials/siteHead.njk" %}
+
   <body>
     <div class="hidden">
       {% include './partials/sprite.svg' %}
@@ -23,6 +17,8 @@
         {{ content | safe }}
       </div>
     </div>
+
+    {% include "./partials/footer.njk" %}
 
     <!--JS-->
     <script src="../index.js"></script>
