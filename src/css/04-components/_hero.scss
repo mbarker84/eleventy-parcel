@@ -3,12 +3,12 @@
   text-align: center;
   background-color: $bgDark;
   color: $white;
-  padding: 4rem 0;
+  padding: 0 0 5rem 0;
+  display: flex;
+  align-items: center;
 
   @media (min-width: $md) {
     padding: 10rem 0;
-    display: flex;
-    align-items: center;
   }
 }
 
@@ -22,17 +22,37 @@
 
 .c-hero__desc {
   max-width: 50ch;
+  margin: 0 auto;
 
   @media (min-width: $md) {
     font-size: 1.4rem;
   }
 }
 
-.c-hero__github-link {
+.c-hero__link-wrapper {
+  max-width: 20rem;
+  margin: 1rem auto;
+
+  @media (min-width: $md) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.c-hero__link {
   color: $accent;
+  margin-top: var(--vr);
 
   &:hover,
   &:focus {
     color: $lightGrey;
   }
+}
+
+.c-hero__link--github {
+  display: block;
+  font-size: 80%;
+  color: $lightGrey;
 }
