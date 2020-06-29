@@ -19,11 +19,25 @@
 
   pre {
     display: block;
+    padding: 1rem;
+    max-width: 40rem;
+  }
+
+  code,
+  pre {
+    background-color: lighten($lightGrey, 10%);
+    border-radius: 0.25rem;
   }
 
   h1 {
     margin-bottom: calc(2 * var(--vr));
     padding-bottom: var(--vr);
-    border-bottom: 0.1rem solid lighten($bgDark, 12%);
+    border-bottom: 0.2rem solid;
+  }
+
+  h1,
+  h2,
+  h3 {
+    color: lighten($bgDark, 12%);
   }
 }
