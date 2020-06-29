@@ -10,6 +10,7 @@ h1,
 h2,
 h3,
 h4 {
+  line-height: 1.1;
   font-family: 'Amiri', serif;
   font-weight: 700;
   margin: 0;
@@ -17,9 +18,23 @@ h4 {
 }
 
 h1 {
+  line-height: 1.1;
+
   @media (min-width: $md) {
     font-size: 4.5rem;
   }
+}
+
+h2 {
+  line-height: 1.2;
+
+  @media (min-width: $md) {
+    font-size: 2.8rem;
+  }
+}
+
+h3 {
+  font-family: 'Lato', sans-serif;
 }
 
 p {

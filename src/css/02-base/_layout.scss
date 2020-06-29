@@ -1,6 +1,9 @@
 body {
-  background-color: darken($bgDark, 5%);
+  background-color: $bgDark;
   color: $white;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
 }
 
 .container {
@@ -15,8 +18,9 @@ body {
 
 .page-content {
   padding: 2rem 0;
+  flex-grow: 1;
 
   @media (min-width: $md) {
-    padding: 7rem 0;
+    padding: 10rem 0;
   }
 }

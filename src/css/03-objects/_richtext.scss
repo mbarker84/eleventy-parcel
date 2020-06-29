@@ -20,4 +20,10 @@
   pre {
     display: block;
   }
+
+  h1 {
+    margin-bottom: calc(2 * var(--vr));
+    padding-bottom: var(--vr);
+    border-bottom: 0.1rem solid lighten($bgDark, 12%);
+  }
 }
