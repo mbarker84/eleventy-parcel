@@ -52,7 +52,19 @@
 }
 
 .c-hero__link--github {
-  display: block;
+  display: flex;
+  align-items: center;
   font-size: 80%;
   color: $lightGrey;
+
+  &:hover,
+  &:focus {
+    color: $white;
+  }
+
+  svg {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-left: 0.5rem;
+  }
 }
