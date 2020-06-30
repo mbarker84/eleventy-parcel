@@ -9,6 +9,7 @@ A basic Eleventy (11ty) starter project with Parcel JS.
 - Basic Sass architecture to get you started
 - SVG sprite creation
 - Image optimisation
+- Prettier and Stylelint
 
 ## Commands
 
