@@ -1,1 +1,3 @@
-console.log("hello 11ty!");
+import menu from './menu'
+
+menu()

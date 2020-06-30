@@ -2,32 +2,35 @@
   {% set headerClass = 'c-header--bg' %}
 {% endif %}
 
-<header class="c-header {{ headerClass }}">
+<header class="c-header {{ headerClass }}" data-header="data-header">
   {% if showHomeLink == true %}
     <h3 class="c-header__title">
       <a href="/">{{ metadata.title }}</a>
     </h3>
   {% endif %}
-  <nav class="c-header__nav">
-    <ul class="c-header__list">
+  <button class="c-header__menu-btn" hidden="true" data-btn="menu" aria-haspopup="true">Menu</button>
+  <div data-menu-wrapper="data-menu-wrapper">
+    <nav class="c-header__nav">
+      <ul class="c-header__list">
 
-      {% for page in collections.page %}
-        <li class="c-header__item">
-          <a class="c-header__link" href="{{ page.url }}">{{ page.data.pageTitle }}</a>
-        </li>
-      {% endfor %}
+        {% for page in collections.page %}
+          <li class="c-header__item">
+            <a class="c-header__link" href="{{ page.url }}">{{ page.data.pageTitle }}</a>
+          </li>
+        {% endfor %}
 
-      {% for item in menudata %}
-        <li class="c-header__item">
-          <a class="c-header__link" href="https://github.com/mbarker84/eleventy-parcel">
-            {{ item.title }}
-            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
-              <use href="#{{ item.icon }}"/>
-            </svg>
-          </a>
-        </li>
-      {% endfor %}
+        {% for item in menudata %}
+          <li class="c-header__item">
+            <a class="c-header__link" href="https://github.com/mbarker84/eleventy-parcel">
+              {{ item.title }}
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30">
+                <use href="#{{ item.icon }}"/>
+              </svg>
+            </a>
+          </li>
+        {% endfor %}
 
-    </ul>
-  </nav>
+      </ul>
+    </nav>
+  </div>
 </header>
