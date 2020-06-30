@@ -12,6 +12,7 @@ A basic Eleventy (11ty) starter project with Parcel JS.
 - SVG sprite creation
 - Image optimisation
 - Prettier and Stylelint
+- Fly-out menu
 
 ## Commands
 
