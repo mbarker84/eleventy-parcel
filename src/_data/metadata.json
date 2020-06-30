@@ -5,5 +5,7 @@
   "author": {
     "name": "Michelle Barker",
     "email": "contact@michellebarker.co.uk"
-  }
+  },
+  "img": "/og-image.jpg",
+  "githubUrl": "https://github.com/mbarker84/eleventy-parcel"
 }

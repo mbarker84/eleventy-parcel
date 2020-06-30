@@ -1,10 +1,12 @@
 [
   {
     "title": "Github",
-    "icon": "github"
+    "icon": "github",
+    "url": "https://github.com/mbarker84/eleventy-parcel"
   },
   {
     "title": "Twitter",
-    "icon": "twitter"
+    "icon": "twitter",
+    "url": "https://twitter.com/MicheBarks"
   }
 ]
