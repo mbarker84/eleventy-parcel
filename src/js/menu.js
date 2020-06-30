@@ -4,6 +4,7 @@ import bodyScrollLock from './helpers/bodyScrollLock'
 const header = document.querySelector('[data-header]')
 const menuBtn = header.querySelector('[data-btn="menu"]')
 const menuWrapper = header.querySelector('[data-menu-wrapper]')
+const homeLink = header.querySelector('[data-home-link]')
 
 const open = () => {
   const firstMenuLink = visibleLinks(menuWrapper)[0]
@@ -50,6 +51,7 @@ const trapFocusInMenu = (e) => {
 const menu = () => {
   menuBtn.hidden = false
   menuWrapper.hidden = true
+  homeLink.hidden = false
   menuWrapper.classList.add('js-menu')
   menuBtn.addEventListener('click', toggleMenu)
   menuWrapper.addEventListener('keydown', trapFocusInMenu)
