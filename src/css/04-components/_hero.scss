@@ -31,7 +31,9 @@
 
 .c-hero__link-wrapper {
   max-width: 20rem;
-  margin: 1rem auto;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
 
   @media (min-width: $md) {
     display: flex;
@@ -52,7 +54,7 @@
 }
 
 .c-hero__link--github {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   font-size: 80%;
   color: $lightGrey;

@@ -27,9 +27,8 @@
   text-decoration: underline;
   font-family: inherit;
   margin-left: auto;
-  font-size: 1.2rem;
   padding: 1rem;
-  margin-right: -1rem;
+  font-size: 1rem;
   z-index: 2;
   cursor: pointer;
 
@@ -39,8 +38,9 @@
   }
 
   @media (min-width: $md) {
-    right: 2rem;
+    right: 1rem;
     top: 0.5rem;
+    font-size: 1.2rem;
   }
 }
 
