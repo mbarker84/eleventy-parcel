@@ -1,7 +1,18 @@
 .c-hero {
   min-height: 100vh;
   text-align: center;
-  background-color: $bgDark;
+  background: repeating-radial-gradient(
+      circle at 50%,
+      transparent 2rem,
+      $alt 2rem,
+      $alt 2.2rem,
+      transparent 2.2rem,
+      transparent 4rem
+    ),
+    radial-gradient(circle at 50%, $alt, transparent), $bgDark;
+  background-size: 10rem 10rem, 100% 100%;
+  background-repeat: repeat;
+  background-position: center;
   color: $white;
   padding: 0 0 5rem 0;
   display: flex;

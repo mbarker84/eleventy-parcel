@@ -1,6 +1,5 @@
 .c-header {
   padding: 1rem 1rem 0.5rem 1rem;
-  background-color: $bgDark;
 
   @media (min-width: $md) {
     padding-right: 1rem;
@@ -13,6 +12,10 @@
     align-items: center;
     padding: 0.5rem 1rem 0.5rem 1rem;
   }
+}
+
+.c-header--bg {
+  background-color: $bgDark;
 }
 
 .c-header__menu-btn {
