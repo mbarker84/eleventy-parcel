@@ -1,18 +1,14 @@
 # Eleventy-Parcel
 
-A basic Eleventy (11ty) starter project with Parcel JS.
-
-## Features
-
-- Two initial Nunjucks templates
-- Parcel for JS bundling and Sass compilation
-- Basic Sass architecture to get you started
-- SVG sprite creation
-- Image optimisation
-- Prettier and Stylelint
-- Fly-out menu
-
 ## Commands
+
+Clone or download the project from the [Github repository](https://github.com/mbarker84/eleventy-parcel).
+
+### Install dependencies
+
+```
+npm install
+```
 
 ### Run
 

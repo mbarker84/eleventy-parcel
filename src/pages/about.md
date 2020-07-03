@@ -2,7 +2,7 @@
 pageTitle: 'About'
 ---
 
-A basic Eleventy (11ty) starter project with Parcel JS.
+A basic [Eleventy (11ty)](https://www.11ty.dev/) starter project with [Parcel JS](https://parceljs.org/).
 
 ## Features
 
@@ -15,6 +15,14 @@ A basic Eleventy (11ty) starter project with Parcel JS.
 - Fly-out menu
 
 ## Commands
+
+Clone or download the project from the [Github repository](https://github.com/mbarker84/eleventy-parcel).
+
+### Install dependencies
+
+```
+npm install
+```
 
 ### Run
 
