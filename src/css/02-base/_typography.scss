@@ -45,3 +45,12 @@ h3 {
 p {
   line-height: 1.5;
 }
+
+a {
+  color: lighten($bgDark, 20%);
+
+  &:hover,
+  &:focus {
+    color: $bgDark;
+  }
+}

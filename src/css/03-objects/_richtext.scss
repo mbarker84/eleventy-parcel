@@ -13,6 +13,10 @@
     margin-left: 2rem;
   }
 
+  li + li {
+    margin-top: calc(var(--vr) / 2);
+  }
+
   h2 + h3 {
     margin-top: var(--vr);
   }
@@ -39,5 +43,13 @@
   h2,
   h3 {
     color: lighten($bgDark, 12%);
+  }
+
+  a {
+    &:hover,
+    &:focus {
+      background-color: $accent;
+      transition: color 200ms, background-color 200ms;
+    }
   }
 }
