@@ -1,12 +1,12 @@
 .c-header {
   padding: 1rem 1rem 0.5rem 1rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
 
   @media (min-width: $md) {
     padding-right: 1rem;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
     min-height: 5rem;
     display: flex;
     align-items: center;
