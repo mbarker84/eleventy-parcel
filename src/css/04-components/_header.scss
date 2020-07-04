@@ -7,10 +7,10 @@
 
   @media (min-width: $md) {
     padding-right: 1rem;
-    min-height: 5rem;
+    min-height: 4.5rem;
     display: flex;
     align-items: center;
-    padding: 0.5rem 1rem 0.5rem 1rem;
+    padding: 0.5rem 1rem 0.5rem 2rem;
   }
 }
 
@@ -41,7 +41,7 @@
   }
 
   @media (min-width: $md) {
-    right: 1rem;
+    right: 1.5rem;
     top: 0.5rem;
     font-size: 1.2rem;
   }
