@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+  {% include "./partials/siteHead.njk" %}
+
+  <body>
+    <div class="hidden">
+      {% include './partials/sprite.svg' %}
+    </div>
+
+    {% if page.url == '/' %}
+      {% set showHomeLink = false %}
+    {% else %}
+      {% set showHomeLink = true %}
+    {% endif %}
+
+    {% include "./partials/header.njk" %}
+
+    {% block content %}{% endblock %}
+
+    {% include "./partials/footer.njk" %}
+    <!--JS-->
+    <script src="/index.js"></script>
+  </body>
+</html>
