@@ -22,7 +22,7 @@
     {% if version.js | length == 0 %}
       {% set JsVersion = '' %}
     {% else %}
-      {% set JsVersion = version.css %}
+      {% set JsVersion = version.js %}
     {% endif %}
     <script src="/index{{ JsVersion }}.js"></script>
   </body>
