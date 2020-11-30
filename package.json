@@ -4,13 +4,15 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "run-p watch:eleventy watch:parcel bs:start",
+    "start": "run-s start:remove start:watch",
+    "start:remove": "node onStart.js",
+    "start:watch": "run-p watch:eleventy watch:parcel bs:start",
     "watch:eleventy": "npx @11ty/eleventy --watch",
     "watch:parcel": "run-p watch:css watch:js watch:images",
     "watch:css": "parcel watch src/css/styles.scss",
     "watch:js": "parcel watch src/js/index.js",
     "watch:images": "parcel watch src/images/*",
-    "build": "run-s clean prod:*",
+    "build": "run-s clean prod:parcel hash prod:eleventy",
     "svg": "svg-sprite-generate -d src/icons -o src/_includes/partials/sprite.svg",
     "prod:eleventy": "npx @11ty/eleventy",
     "prod:parcel": "run-p build:css build:js build:images",
@@ -18,7 +20,8 @@
     "build:js": "parcel build src/js/index.js",
     "build:images": "parcel build src/images/*",
     "bs:start": "browser-sync start --config bs-config.js",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "hash": "node onBuild.js"
   },
   "keywords": [],
   "author": "",
