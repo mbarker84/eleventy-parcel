@@ -12,9 +12,8 @@
   |
  */
 module.exports = {
-  files: ["dist/*"],
+  files: ['dist/*'],
   injectChanges: true,
-  server: "dist",
-  throttle: 3000
-
-};
+  server: 'dist',
+  throttle: 3000,
+}
