@@ -57,7 +57,8 @@ typings/
 # dotenv environment variables file
 .env
 
-.cache/
+.cache
+.parcel-cache
 public
 yarn-error.log
 dist
