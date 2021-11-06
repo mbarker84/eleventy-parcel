@@ -24,6 +24,6 @@
     {% else %}
       {% set JsVersion = version.js %}
     {% endif %}
-    <script src="/index{{ JsVersion }}.js"></script>
+    <script type="module" src="/index{{ JsVersion }}.js"></script>
   </body>
 </html>
