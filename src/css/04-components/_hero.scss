@@ -5,12 +5,12 @@
       circle at 50%,
       transparent 2rem,
       $alt 2rem,
-      $alt 2.2rem,
-      transparent 2.2rem,
+      $alt 2.5rem,
+      transparent 0,
       transparent 4rem
     ),
     radial-gradient(circle at 50%, $alt, transparent), $bgDark;
-  background-size: 10rem 10rem, 100% 100%;
+  background-size: 6.6rem 6.6rem, 100% 100%;
   background-repeat: repeat;
   background-position: center;
   color: $white;
