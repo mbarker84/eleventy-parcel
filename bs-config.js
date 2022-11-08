@@ -15,5 +15,5 @@ module.exports = {
   files: ['dist/*'],
   injectChanges: true,
   server: 'dist',
-  throttle: 3000,
+  reloadThrottle: 3000,
 }
