@@ -8,9 +8,8 @@
     "src/js/index.js"
   ],
   "scripts": {
-    "start": "run-s start:remove build:images start:watch",
+    "start": "run-s start:remove build:images watch:eleventy",
     "start:remove": "node onStart.mjs",
-    "start:watch": "run-p watch:eleventy",
     "watch:eleventy": "npx @11ty/eleventy --serve --incremental",
     "watch:parcel": "parcel watch --no-cache",
     "build": "run-s clean build:parcel build:images hash build:eleventy",
