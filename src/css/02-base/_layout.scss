@@ -1,6 +1,6 @@
 body {
-  background-color: $white;
-  color: $bgDark;
+  background-color: var(--white);
+  color: var(--bgDark);
   display: flex;
   flex-direction: column;
   min-height: 100vh;

@@ -7,14 +7,15 @@ A basic [Eleventy (11ty)](https://www.11ty.dev/) starter project with [Parcel JS
 ## Features
 
 - Two initial Nunjucks templates
-- Parcel for JS bundling and Sass compilation
+- JS bundling, Sass-to-CSS compilation and image optimisation via Parcel
 - Basic Sass architecture to get you started
 - SVG sprite creation
-- Image optimisation
 - Prettier and Stylelint
 - Fly-out menu
+- Custom properties for spacing and typography from [Utopia.fyi](https://utopia.fyi/)
+- Cache-busting
 
-## Commands
+## Getting started
 
 Clone or download the project from the [Github repository](https://github.com/mbarker84/eleventy-parcel).
 
