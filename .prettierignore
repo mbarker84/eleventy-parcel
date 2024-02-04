@@ -1,0 +1,4 @@
+# Build files:
+/dist/*
+
+/node_modules/*
