@@ -35,9 +35,15 @@ p {
 
 a {
   color: inherit;
+  transition:
+    text-underline-offset 150ms,
+    color 150ms;
+  text-decoration-thickness: 0.1em;
+  text-underline-offset: 0.1em;
 
   &:hover,
   &:focus {
     color: var(--accent);
+    text-underline-offset: 0.3em;
   }
 }

@@ -39,14 +39,4 @@
     padding-bottom: var(--space-m);
     border-bottom: 0.2rem solid;
   }
-
-  a {
-    &:hover,
-    &:focus {
-      background-color: var(--accent);
-      transition:
-        color 200ms,
-        background-color 200ms;
-    }
-  }
 }
