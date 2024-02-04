@@ -6,14 +6,14 @@ let hashCss
 let hashJs
 
 const readCssFile = () => {
-  return readFile('dist/styles.css', (err, data) => {
+  return readFile('dist/css/styles.css', (err, data) => {
     if (err) console.log(err)
     return data
   })
 }
 
 const readJsFile = () => {
-  return readFile('dist/index.js', (err, data) => {
+  return readFile('dist/js/index.js', (err, data) => {
     if (err) console.log(err)
     return data
   })
@@ -36,17 +36,25 @@ const writeVersions = () => {
 }
 
 const renameCSS = () => {
-  return rename('dist/styles.css', `dist/styles${hashCss}.css`, function (err) {
-    if (err) return console.log('ERROR: ' + err)
-    console.log(`dist/styles.css > dist/styles${hashCss}.css`)
-  })
+  return rename(
+    'dist/css/styles.css',
+    `dist/css/styles${hashCss}.css`,
+    function (err) {
+      if (err) return console.log('ERROR: ' + err)
+      console.log(`dist/css/styles.css > dist/css/styles${hashCss}.css`)
+    }
+  )
 }
 
 const renameJS = () => {
-  return rename('dist/index.js', `dist/index${hashJs}.js`, function (err) {
-    if (err) return console.log('ERROR: ' + err)
-    console.log(`dist/index.js > dist/index${hashJs}.js`)
-  })
+  return rename(
+    'dist/js/index.js',
+    `dist/js/index${hashJs}.js`,
+    function (err) {
+      if (err) return console.log('ERROR: ' + err)
+      console.log(`dist/js/index.js > dist/js/index${hashJs}.js`)
+    }
+  )
 }
 
 const setVersionVariables = (cssFileContent, jsFileContent) => {

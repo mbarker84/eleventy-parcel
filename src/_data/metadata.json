@@ -2,6 +2,7 @@
   "title": "Eleventy-Parcel",
   "url": "https://eleventy-parcel.netlify.app/",
   "description": "A basic Eleventy (11ty) starter project with Parcel JS",
+  "version": "2.2.0",
   "author": {
     "name": "Michelle Barker",
     "email": "contact@michellebarker.co.uk"

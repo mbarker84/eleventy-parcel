@@ -1,0 +1,11 @@
+{
+  "rules": {
+    "quotes": [
+      "error",
+      "single",
+      { "avoidEscape": false, "allowTemplateLiterals": true },
+    ],
+  },
+  "parserOptions": { "sourceType": "module", "ecmaVersion": 2021 },
+  "extends": ["prettier"],
+}

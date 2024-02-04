@@ -10,7 +10,9 @@
       transparent 4rem
     ),
     radial-gradient(circle at 50%, $alt, transparent), $bgDark;
-  background-size: 6.6rem 6.6rem, 100% 100%;
+  background-size:
+    6.6rem 6.6rem,
+    100% 100%;
   background-repeat: repeat;
   background-position: center;
   color: $white;
@@ -29,6 +31,11 @@
   @media (min-width: $lg) {
     font-size: 6rem;
   }
+}
+
+.c-hero__version {
+  color: $accent;
+  text-align: center;
 }
 
 .c-hero__desc {
