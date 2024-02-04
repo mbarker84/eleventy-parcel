@@ -1,52 +1,36 @@
 body {
   font-family: 'Mukta', sans-serif;
-
-  @media (min-width: $md) {
-    font-size: 1.2rem;
-  }
+  font-size: var(--step-0);
 }
 
 h1,
 h2,
 h3,
 h4 {
-  line-height: 1.1;
+  line-height: 1.2;
   font-weight: 700;
-  margin: 0;
-}
-
-h2,
-h3 {
-  letter-spacing: -0.02em;
+  margin-block: 0;
 }
 
 h1 {
-  line-height: 1.1;
+  font-size: var(--step-6);
   letter-spacing: -0.03em;
-
-  @media (min-width: $md) {
-    font-size: 4.5rem;
-  }
 }
 
 h2 {
-  line-height: 1.2;
-
-  @media (min-width: $md) {
-    font-size: 2.8rem;
-  }
+  font-size: var(--step-4);
 }
 
 h3 {
-  font-size: 1.1rem;
+  font-size: var(--step-3);
+}
 
-  @media (min-width: $md) {
-    font-size: 1.5rem;
-  }
+h3 {
+  font-size: var(--step-2);
 }
 
 p {
-  line-height: 1.5;
+  line-height: 1.55;
 }
 
 a {
