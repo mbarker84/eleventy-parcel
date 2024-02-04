@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lato', sans-serif;
+  font-family: 'Mukta', sans-serif;
 
   @media (min-width: $md) {
     font-size: 1.2rem;
@@ -11,7 +11,6 @@ h2,
 h3,
 h4 {
   line-height: 1.1;
-  font-family: 'Amiri', serif;
   font-weight: 700;
   margin: 0;
 }
@@ -39,7 +38,6 @@ h2 {
 }
 
 h3 {
-  font-family: 'Lato', sans-serif;
   font-size: 1.1rem;
 
   @media (min-width: $md) {
@@ -52,10 +50,10 @@ p {
 }
 
 a {
-  color: lighten($bgDark, 20%);
+  color: inherit;
 
   &:hover,
   &:focus {
-    color: $bgDark;
+    color: var(--accent);
   }
 }

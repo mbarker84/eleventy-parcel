@@ -1,11 +1,11 @@
 .o-richtext {
   * + * {
-    margin-top: var(--vr);
+    margin-top: var(--space-s);
   }
 
   * + h2,
   * + h3 {
-    margin-top: calc(2 * var(--vr));
+    margin-top: var(--space-l);
   }
 
   ul {
@@ -14,11 +14,11 @@
   }
 
   li + li {
-    margin-top: calc(var(--vr) / 2);
+    margin-top: var(--space-xs);
   }
 
   h2 + h3 {
-    margin-top: var(--vr);
+    margin-top: var(--space-m);
   }
 
   pre {
@@ -29,27 +29,23 @@
 
   code,
   pre {
-    background-color: lighten($lightGrey, 10%);
+    background-color: color-mix(in srgb, var(--bgDark) 10%, white);
     border-radius: 0.25rem;
   }
 
   h1 {
-    margin-bottom: calc(2 * var(--vr));
-    padding-bottom: var(--vr);
+    margin-bottom: var(--space-m);
+    padding-bottom: var(--space-m);
     border-bottom: 0.2rem solid;
-  }
-
-  h1,
-  h2,
-  h3 {
-    color: lighten($bgDark, 12%);
   }
 
   a {
     &:hover,
     &:focus {
-      background-color: $accent;
-      transition: color 200ms, background-color 200ms;
+      background-color: var(--accent);
+      transition:
+        color 200ms,
+        background-color 200ms;
     }
   }
 }
